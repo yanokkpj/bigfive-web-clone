@@ -1,3 +1,4 @@
+
 # 性格分析スコアリングロジック
 
 ## 手法
@@ -42,7 +43,8 @@
 - 心理測定学の規準に基づく5段階尺度設計
 - 回答バイアス軽減のため中間領域を拡大
 - 臨床心理学の分類法を参考に閾値を設定
-- **実装コード**: [スコアリングアルゴリズムの実装](https://github.com/yanokkpj/bigfive-web/blob/master/packages/score/src/index.ts)
+- **実装コード**: [スコアリングアルゴリズムの実装](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/score/src/index.ts)
+
 
 ## 移植可能性
 このスコアリングシステムは以下の特徴により、様々なプラットフォームへ移植可能です：
@@ -74,4 +76,10 @@
    - ユニットテストによる動作保証
    - 複数データセットでの検証済み
 
-実装の主要ロジックは`processAnswers`関数（[ソース](https://github.com/yanokkpj/bigfive-web/blob/master/packages/score/src/index.ts#L18-L55)）に集約されており、他のシステムへの統合が容易です。 
+実装の主要ロジックは`processAnswers`関数（[ソース](https://github.com/yanokkpj/bigfive-web-clone/blob/master/packages/score/src/index.ts#L18-L55)）に集約されており、他のシステムへの統合が容易です。 
+
+
+# 日本語定義ファイル
+  - [質問文定義](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/questions.ts)
+  - [回答オプション定義](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/choices.ts)
+
