@@ -1,4 +1,3 @@
-
 # 性格分析スコアリングロジック
 
 ## 手法
@@ -80,6 +79,8 @@
 
 
 # 日本語定義ファイル
-  - [質問文定義](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/questions.ts)
-  - [回答オプション定義](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/choices.ts)
+  - [質問文定義(TS)](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/questions.ts)
+  - [質問文定義(CSV)](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/questions.csv)
+  - [回答オプション定義(TS)](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/choices.ts)
+  - [回答オプション定義(CSV)](https://github.com/yanokkpj/bigfive-web-clone/blob/main/packages/questions/src/data/ja/choices.csv)
 
